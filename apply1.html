@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>apply</title>
+        <link rel="stylesheet" href="apply1.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        
+        <img src="img/applyimg.jpeg" alt="">
+        <h1 style="margin-left: 100px;padding-left: 50px;">Employment Application</h1>
+        <p>Fill the form below accurately indicating<br> your potentials and suitability to job applying for.</p>
+
+        
+    </head>
+    <body>
+        <h1>Employment Application</h1>
+        <p>Fill the form below accurately indicating<br> your potentials and suitability to job applying for.</p>
+        <hr>
+        <div class="format">
+            <br><br>
+            
+            <h2 style="text-align: center;">PERSONAL INFORMATION</h2><BR>
+    
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="fname" placeholder="firstname">
+                <input type="text" id="name" name="lname" placeholder="lastname"><br><BR>
+                <!-- birthday -->
+                <label for="date">Date Of Birth</label><br>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <!-- gender -->
+                <label for="gender">Gender</label><br>
+                <select id="gender" name="gender"><br>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                </select><br><br>
+                <!-- father -->
+                <label for="fa">Father Name</label><br>
+                <input   class="space" id="fname" type="text" name="text"  placeholder="Firstname">
+                <input  class="space" id="lstname" type="text" name="text" placeholder="lastname"><br><br>
+                <!-- mother -->
+                <label for="fa">Mother Name</label><br>
+                <input   class="space" id="fname" type="text" name="text"  placeholder="Firstname">
+                <input  class="space" id="lstname" type="text" name="text" placeholder="lastname"><br><br>
+                <!-- number -->
+                <label for="date">Phone Number</label><br>
+                <input type="text" id="phno" name="phno" placeholder="1234567890"><br><br>
+                <!-- mail -->
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="name@gmail.com"><br><br>
+                <!-- address -->
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address" placeholder="street address 1" /><br>
+                <input type="text" id="address" name="address" placeholder="street address line 2" /><br>
+                <input type="text" id="city" name="address" placeholder="city"/>
+                <input type="text" id="state" name="address" placeholder="state" />
+                <input type="text" id="address" name="address" placeholder="Postal/zip code" /><br><br>
+                <!-- exp -->
+            <div class="wrkexp">
+                <fieldset><legend>work Experience</legend>
+                    <label for="cars">Choose</label>
+                    <select id="cars" name="cars">
+                    <option value="volvo">0</option>
+                    <option value="saab">1</option>
+                    <option value="fiat">2</option>
+                    <option value="audi">3</option>
+                    <option value="audi">more</option>
+                </select>&nbsp;&nbsp;&nbsp;
+                    <label for="cars">Domain</label>
+                    <select id="cars" name="cars">
+                    <option value="volvo">software developer</option>
+                    <option value="saab">Tester</option>
+                    <option value="fiat">Designer</option>
+                    <option value="audi">Programmer</option>
+                    
+    
+                </select>
+    
+                </fieldset><br><br>
+            </div>
+                <!-- checkbox -->
+                <label for="address">How were you referred to us?</label><br><br>
+                <input type="checkbox" id="myCheckbox" name="myCheckbox" value="checkboxValue">
+                <label for="myCheckbox">Facebook</label>
+                <input type="checkbox" id="Checkboxtwit" name="myCheckbox" value="checkboxValue">
+                <label for="myCheckbox">Twitter</label><br>
+                <input type="checkbox" id="myCheckbox" name="myCheckbox" value="checkboxValue">
+                <label for="myCheckbox">Referal</label>
+                <input type="checkbox" id="Checkboxlin" name="myCheckbox" value="checkboxValue">
+                <label for="myCheckbox">LinkedIn</label><br>
+                <input type="checkbox" id="myCheckbox" name="myCheckbox" value="checkboxValue">
+                <label for="myCheckbox">Newspaper Ad</label>
+                <input type="checkbox" id="Checkbox" name="myCheckbox" value="checkboxValue">
+                <label for="myCheckbox">Posters</label><br><br><br>
+                <!-- FILE -->
+                <!-- <label><span>UPLOAD RESUME</span></label> -->
+                <h3 style="text-align: center;">UPLOAD RESUME</h3>
+                <label for="file" style="margin-left: 150px;"><img class="browse" src="img/upload.jpeg"></label>
+                <input type="file" id="file">
+                <hr>
+                <h2 style="text-align: center;">QUALIFICATIONS</h2><BR>
+            <div class="quali">
+                <fieldset id="colege"><legend>college details</legend>
+                    <h4>COLLEGE DETAILS</h4><br>
+                    <label for="college">college name</label><br>
+                    <input type="text" id="college"><br>
+                    <label for="college">year of passing</label><br>
+                    <input type="number" id="college" min="1990"><br>
+                    <label for="college">percentage</label><br>
+                    <input type="text" id="college"><br><br>
+                </fieldset>
+                <fieldset id="diplomo"><legend>Diplomo details</legend>
+                    <h4>DIPLOMO DETAILS</h4><br>
+                    <label for="college">College name</label><br>
+                    <input type="text" id="college"><br>
+                    <label for="college">year of passing</label><br>
+                    <input type="number" id="college" min="2000"><br>
+                    <label for="college">percentage</label><br>
+                    <input type="text" id="college"><br><br>
+                </fieldset>
+                <fieldset id="12th"><legend>HSLC</legend>
+                    <h4>12th GRADE</h4><br>
+                    <label for="college">School name</label><br>
+                    <input type="text" id="college"><br>
+                    <label for="college">year of passing</label><br>
+                    <input type="number" id="college" min="2000"><br>
+                    <label for="college">percentage</label><br>
+                    <input type="text" id="college">
+                </fieldset>
+                <fieldset id="10th"><legend>SSLC</legend>
+                    <h4>10th GRADE</h4><br>
+                    <label for="college">School name</label><br>
+                    <input type="text" id="college"><br>
+                    <label for="college">year of passing</label><br>
+                    <input type="number" id="college" min="2000"><br>
+                    <label for="college">percentage</label><br>
+                    <input type="text" id="college">
+                </fieldset>
+                </div><br>
+                <hr><br><br>
+                <!-- <h2 style="text-align: center;">ACCOUNT CREDENTIALS</h2><br> 
+                <label for="ACCOUNT">User Name</label><br>
+                    <input type="text" id="PASS"><br>
+                    <label for="pass">Password</label><br>
+                    <input type="password" id="PASS"><br>
+                    <label for="pass"> Confirm Password</label><br>
+                    <input type="password" id="PASS"><br>
+                    <label for="pass"> Security Questions</label><br>
+                    <select>
+                    <option value="pet">Pet name</option>
+                    <option value="pet">Favorite Colour</option>
+                    <option value="pet">City</option>
+                    </select><br><br>
+    
+                    <label for="terms">Agree to Terms and Conditions:</label>
+            <input type="checkbox" id="terms" name="terms" required>
+            I agree to the <a href="terms_and_conditions.html" target="_blank">Terms and Conditions</a><br><br>-->
+                <input type="checkbox" id="myCheckbox" name="myCheckbox" value="checkboxValue">
+                <label for="myCheckbox">I certify that the information I have written on the application form and the documents I have submitted to be
+                    true and accurate.</label>
+                <div class="submit" style="text-align: center;">
+                    <input type="submit" value="submit" style="background-color: skyblue ;"" required><br><br>
+                 </div>
+            
+            </div>
+            
+            
+    
+                
+    
+    
+            
+            </form>
+    
+        </div>
+        
+    </body>
+    </html>

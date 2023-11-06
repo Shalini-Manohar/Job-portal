@@ -1,0 +1,138 @@
+*{
+    margin: 6px;
+    margin-right: 7px;
+    
+    
+}
+.format{
+   
+    background: rgba(186, 185, 185, 0.2); /* Transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border-radius: 20px;
+    
+    box-shadow: 0 5px 6px rgba(44, 44, 44, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(7px);
+   
+}
+body{
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-right: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    /* background: linear-gradient(45deg, #FF6B6B, #febf98); */
+    /* background-image: linear-gradient(to bottom right, #00bfff98, #4318b88d); */
+}
+
+img{
+    height: 40vh;
+    width: 50%;
+    
+
+}
+h1{
+    float: right;
+    margin-top: -180px;
+  
+}
+p{
+  float: right; 
+  margin-top:-100px ;
+  margin-right:20px;
+}
+form{
+   text-align: left;
+}
+input {
+  
+    padding: 8px 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+#address{
+    width: 60%;
+    text-align: center;
+}
+
+
+#state{
+    margin-left: 20px;
+    text-align: center;
+}
+#city{
+    margin-left: 20px;
+    text-align: center;
+}
+#name{
+    width: 30%;
+}
+#fname{
+    width: 30%;
+}
+#lstname{
+    width: 30%;
+}
+#Checkbox{
+    margin-left: 50px;
+}
+#Checkboxlin{
+    margin-left: 99px;
+}
+#Checkboxtwit{
+    margin-left: 85px;
+}
+
+
+.browse{
+    width:80%;
+    height: 20vh;
+    margin-top: 100px;
+    margin-left: -150px;
+    position: relative;
+    top:-20px;
+    
+}
+#file{
+    margin-top:20px;
+    margin-left: -359px;
+    position: relative;
+    top:-40px;
+}
+span{
+    position: relative;
+    top:-160px
+}
+fieldset{
+    width: 40%;
+}
+legend{
+   text-align: center;
+}
+#colege{
+    text-align: center;
+}
+.quali{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.quali input{
+    padding: 3px 7px;
+    margin: 8px 0;
+}
+.wrkexp{
+    width: 190%;
+}
+#PASS{
+    width: 25%;
+    padding: 3px 7px;
+}

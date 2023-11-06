@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+       
+        /* Basic table styles for readability */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Status column styles with different colors for each status */
+        .status {
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .applied {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .reviewed {
+            background-color: rgb(205, 205, 43);
+            color: #fff;
+        }
+
+        .interview {
+            background-color: #f39c12;
+            color: #fff;
+        }
+
+        .offer {
+            background-color: #27ae60;
+            color: #fff;
+        }
+        .rejected {
+            background-color: #e74c3c;
+            color: #fff;
+
+        }
+        .shortlisted {
+            background-color: #2b358c;
+            color: #fff;
+
+        }
+        .statustable{
+            text-align: center;
+            margin: 200px;
+        }
+       
+    </style>
+    
+    
+    
+    
+</head>
+<body>
+    <div class="statustable">
+    <h1 >Application Status Table</h1><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Date Applied</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Software Engineer</td>
+                <td>ABC Inc.</td>
+                <td>15-10-2023</td>
+                <td><span class="status applied">Applied</span></td>
+            </tr>
+            <tr>
+                <td>Data Analyst</td>
+                <td>XYZ Corp.</td>
+                <td>23-10-2023</td>
+                <td><span class="status reviewed">Under Review</span></td>
+            </tr>
+            <tr>
+                <td>Marketing Manager</td>
+                <td>123 Marketing</td>
+                <td>25-10-2023</td>
+                <td><span class="status interview">Scheduled Interview</span></td>
+            </tr>
+            <tr>
+                <td>Sales Representative</td>
+                <td>Best Sales</td>
+                <td>01-11-2023</td>
+                <td><span class="status offer">Job Offer</span></td>
+            </tr>
+            <tr>
+                <td>Sales Representative</td>
+                <td>Best Sales</td>
+                <td>01-11-2023</td>
+                <td><span class="status shortlisted">Shortlisted</span></td>
+            </tr>
+            <tr>
+                <td>Sales Representative</td>
+                <td>Best Sales</td>
+                <td>2023-11-01</td>
+                <td><span class="status rejected">Rejected</span></td>
+            </tr>
+            <tr>
+                <td>Sales Representative</td>
+                <td>Best Sales</td>
+                <td>2023-11-01</td>
+                <td><span class="status offer">Job Offer</span></td>
+            </tr>
+            <tr>
+                <td>Sales Representative</td>
+                <td>Best Sales</td>
+                <td>2023-11-01</td>
+                <td><span class="status offer">Job Offer</span></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+</body>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@5.0.1/dist/css/ionicons.min.css">
+
+
+    
+    
+</head>
+<body>
+    <section>
+        <header>
+            <div class="logo">
+                <img src="img/logo-white.png">
+            </div>
+    
+             
+            <div class="nav-bar">
+                <ul>
+                    <nav>
+                        
+                        <ul>      
+                          <li id="menu-products">
+                         
+                          <a href="index.html" style="font-weight: bold;margin-top: 20px;">Home</a>
+                            
+                            
+                            
+                          </li>
+                        </ul>
+                    </nav>   
+                    
+                  <div class="button" style="margin-top: 20px;">
+                    <li><a href="jobseeker.html" style="align-items: center;padding-left: 20px;">JobSeeker</a></li>
+                  </div>
+                </ul>
+            </div>
+        </header>
+    </section>
+    <div class="content1" style="padding-top: 80px;">
+        <main>
+          <!-- Main content of your webpage goes here -->
+        </main>
+    </div>
+    <!-- SideBar -->
+    <div class="sidebar" style="padding-left: 10px;">
+      <h3 style="text-align: center;margin-left: 70px;">Filter<img src="img/filter.jpeg" style="width: 30px;height: 30px;"></h3> 
+      <div class="fdropdown" style="width: 150px;">
+        <label for="location">Location</label>
+        <select id="location" >
+            <option value="all">All</option>
+            <option value="city1">chennai</option>
+            <option value="city2">bangalore</option>
+            <option value="city3">hyderabad</option>
+        </select>
+        <label for="job-type" style="padding-top: 50px;">Job Type</label>
+        <select id="job-type">
+              <option value="all">All</option>
+              <option value="full-time">Full Time</option>
+              <option value="part-time">Part Time</option>
+              <option value="contract">Contract</option>
+        </select>
+        <label for="job-title"  style="padding-top: 50px;">Job Title</label>
+        <select id="job-title">
+              <option value="all">All</option>
+              <option value="title1">software developer</option>
+              <option value="title2">business analyst</option>
+              <option value="title3">UI/UX designer</option>
+              <option value="title3">BPO</option>
+        </select>
+        <label for="course" style="padding-top: 50px;">Course</label>
+        <select id="course">
+                <option value="all">All</option>
+                <option value="course1">Bachelor of technology</option>
+                <option value="course2">Bachelor of Engineering</option>
+                <option value="course3">MBA</option>
+        </select>
+         
+        <button style="padding-top: 0px;margin-top: 50px;margin-left: 50px;width: 50px;">filter</button>
+        
+
+      </div>
+    </div>          
+    <!-- job cards -->
+    <!-- <div class="main"> -->
+    <div class="wrapper" style="margin-left: 400px;width: 400px;">
+        <div class="jobcard">
+          <div class="card-left blue-bg">
+            <img src="images/google.svg" />
+          </div>
+          <div class="card-center">
+            <h3>Google</h3>
+            <p class="card-detail">Data Science, Data Engineer</p>
+            <p class="card-loc">
+              <ion-icon name="location-outline"></ion-icon> Abcd Street
+            </p>
+            <div class="card-sub">
+              <p><ion-icon name="today-outline"></ion-icon> 1 mins ago</p>
+              <p><ion-icon name="hourglass-outline"></ion-icon> Full-Time</p>
+              <p><ion-icon name="people-outline"></ion-icon> 200 Applicants</p>
+            </div>
+          </div>
+          <div class="card-right">
+            <div class="card-tag">
+              <h5>Divission</h5>
+              <a href="#">Data Engineer</a>
+            </div>
+            <div class="card-salary">
+              <p><b>&#8377;40,000</b> <span>/ month</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="jobcard">
+            <div class="card-left yellow-bg">
+              <img src="images/tiktok.svg" />
+            </div>
+            <div class="card-center">
+              <h3>TikTok</h3>
+              <p class="card-detail">Data Analyst, Product Analyst</p>
+              <p class="card-loc">
+                <ion-icon name="location-outline"></ion-icon> Abcd Street
+              </p>
+              <div class="card-sub">
+                <p><ion-icon name="today-outline"></ion-icon> 10 mins ago</p>
+                <p><ion-icon name="hourglass-outline"></ion-icon> Full-Time</p>
+                <p><ion-icon name="people-outline"></ion-icon> 130 Applicants</p>
+              </div>
+            </div>
+            <div class="card-right">
+              <div class="card-tag">
+                <h5>Divission</h5>
+                <a href="#">Data Science</a>
+              </div>
+              <div class="card-salary">
+                <p><b>&#8377;40,000</b> <span>/ month</span></p>
+              </div>
+            </div>
+        </div>
+        <div class="jobcard">
+            <div class="card-left red-bg">
+              <img src="images/youtube.svg" />
+            </div>
+            <div class="card-center">
+              <h3>YouTube</h3>
+              <p class="card-detail">Data Analyst, Product Analyst</p>
+              <p class="card-loc">
+                <ion-icon name="location-outline"></ion-icon> Abcd Street
+              </p>
+              <div class="card-sub">
+                <p><ion-icon name="today-outline"></ion-icon> 1 hour ago</p>
+                <p><ion-icon name="hourglass-outline"></ion-icon> Full-Time</p>
+                <p><ion-icon name="people-outline"></ion-icon> 240 Applicants</p>
+              </div>
+            </div>
+            <div class="card-right">
+              <div class="card-tag">
+                <h5>Divission</h5>
+                <a href="#">Engineer, Product</a>
+              </div>
+              <div class="card-salary">
+                <p><b>&#8377;40,000</b> <span>/ month</span></p>
+              </div>
+            </div>
+        </div>
+        <div class="jobcard">
+            <div class="card-left purple-bg">
+              <img src="images/apple.svg" />
+            </div>
+            <div class="card-center">
+              <h3>Apple</h3>
+              <p class="card-detail">UI UX Designer</p>
+              <p class="card-loc">
+                <ion-icon name="location-outline"></ion-icon> Abcd Street
+              </p>
+              <div class="card-sub">
+                <p><ion-icon name="today-outline"></ion-icon> 1 hour ago</p>
+                <p><ion-icon name="hourglass-outline"></ion-icon> Full-Time</p>
+                <p><ion-icon name="people-outline"></ion-icon> 175 Applicants</p>
+              </div>
+            </div>
+            <div class="card-right">
+              <div class="card-tag">
+                <h5>Divission</h5>
+                <a href="#">Designer App</a>
+              </div>
+              <div class="card-salary">
+                <p><b>&#8377;40,000</b> <span>/ month</span></p>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="servicecontainer">
+
+    </div>
+    
+    <!-- about company -->
+    <section id="aboutcompany">
+    <div class="detail">
+        <ion-icon class="close-detail" name="close-circle-outline"></ion-icon>
+        <div class="detail-header">
+          <img src="images/google.svg" />
+          <h2>Google</h2>
+          <p>Data Science</p>
+        </div>
+        <hr class="divider" />
+        <div class="detail-desc">
+          <div class="about" >
+            <h4 style="position:absolute;color:black;font-size: 20px;">About Company</h4>
+            <p style="padding-top: 30px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, iste
+              rerum laudantium.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <hr class="divider" />
+          <div class="qualification">
+            <h4 style="position:absolute;color:black;font-size: 20px;">Qualification</h4>
+            <ul style="padding-top: 30px;">
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              <li>
+                Nobis sint voluptas ducimus, reprehenderit tempore eveniet
+                repudiandae accusantium.
+              </li>
+              <li>
+                Ipsum expedita comodi quod iusto maxime rerum dolores sint
+                voluptas ducimus.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="divider">
+        <div class="detail-btn">
+          <button class="btn-apply"><a href="apply1.html" style="text-decoration: none;color:black">Apply Now</a></button>
+          <button class="btn-save"><a href="saved.html" style="text-decoration: none;color:black">Save Job</a></button>
+        </div>
+    </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    $(document).ready(function() {
+  $(".card").on("click", function() {
+    $(".detail").addClass("active");
+  });
+
+  $(".close-detail").on("click", function() {
+    $(".detail").removeClass("active");
+  });
+
+  $(".menu-bar").on("click", function() {
+    $(".sidebar").addClass("active");
+  });
+
+  $(".logo").on("click", function() {
+    $(".sidebar").removeClass("active");
+  });
+});
+</script>
+
+
+<!-- footer section starts -->
+<!-- <footer style="position: ;"> 
+    <div class="footer-content">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <h4>About Us</h4>
+                <p>Information about the job portal and the services.</p>
+              </div>
+              <div class="col">
+                <h4>home</h4>
+                <ul>
+                  <li><a href="#">Job seeker</a></li>
+                  <li><a href="#">Employer</a></li>
+                  <li><a href="#">Top recruiters</a></li>
+                  <li><a href="#">latest updates</a></li>
+                  <li><a href="#">services</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                    <p>copyright &copy;2023 Jobentry.All Rights Reserved</p>
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                    </ul>
+                </div>  -->  
+              
+              <!-- <div class="col"> 
+                <div class="email-container">
+                <input type="email" placeholder="Enter email address" />
+                <button>Subscribe</button>
+                </div>-->
+            <!-- </div> 
+        </div>
+        
+        
+
+    </div>-->
+    
+    <!-- <div class="footer-bottom"> 
+        <p>copyright &copy;2023 Jobentry.All Rights Reserved</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+    </div>-->    
+
+
+    
+<!-- </footer> -->
+<!-- footer section end-->
+
+    
+
+    
+</body>
+</html>
